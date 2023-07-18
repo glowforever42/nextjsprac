@@ -1,15 +1,40 @@
 body {
-  background: black;
+  background: white;
   margin: 0
 }
 
+.title-box {
+  background-color: #FFD400;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+
 .title {
-  color: white;
-  margin-top: 4rem;
-  margin-left: 2rem;
+  color: black;
+  margin-top: -0.25rem;
+  margin-left: 10rem;
 }
 
 .title-sub {
-  color: white;
+  color: black;
   margin-left: 2rem;
+}
+
+.sub-title-box {
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  margin-left: 3rem;
+  border-radius: 10px;
+}
+
+.welcome-box {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+
+.sub-title {
+  color: gray;
 }
